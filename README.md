@@ -18,7 +18,7 @@ services:
   mrs:
     image: heckenmann/mrs:latest
     volumes:
-      - mrs.yml:/opt/mrs/mrs.yml
+      - ./mrs.yml:/opt/mrs/mrs.yml
     ports:
       - "8080:8080"
 ```
