@@ -1,0 +1,108 @@
+server:
+    port: 8080
+    # Gefundene Textpassagen ausgeben
+    findAllStringSubmatch: true
+    # Gefundene Stellen ausgeben
+    findAllStringSubmatchIndex: true
+groups:
+# REGEX: https://golang.org/pkg/regexp/syntax/
+    - name: legal
+      regex: (\D){0,3}egal
+    - name: phone
+      regex: \d{3,5}-\d{3,5}
+    - name: virginia00
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia01
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia02
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia03
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia04
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia05
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia06
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia07
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia08
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia09
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia10
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia11
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia12
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia13
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia14
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia15
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia16
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia17
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia18
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia19
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia20
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia21
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia22
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia23
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia24
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia25
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia26
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia27
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia28
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia29
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia30
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia31
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia32
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia33
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia34
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia35
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia36
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia37
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia38
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia39
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia40
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia41
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia42
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia43
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia44
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia45
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia46
+      regex: (V|v)i(.){0,5}ia
+    - name: virginia47
+      regex: (V|v)i(.){0,5}ia
